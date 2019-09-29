@@ -1,0 +1,323 @@
+body{
+    background-color: #899b8d;
+}
+
+/* start nav */
+nav{
+    background-color: #899b8d;
+    margin: .7rem,0rem,.7rem,0;
+}
+.nav-wrapper{
+    color: #e3dac9;
+    background-color: #899b8d;
+    margin-left: .7rem;
+    margin-right: .75rem;
+}
+
+.brand-logo{
+    margin-left: 1rem;
+}
+
+li{
+    font: 1rem; 
+    font-weight: 600;
+}
+
+ /* end navbar */
+
+ /* card home page */
+.landing{
+    margin: 0px;
+}
+
+#home{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 3.5rem;
+    color: #333333;
+    right: 5rem;
+    bottom: 25rem;
+}
+
+#phrase{
+    font-family: 'Amiri', serif;
+    color: #333333;
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-align: center;
+    left: 23rem;
+    bottom: 24rem;
+}
+
+#phrase1{
+    font-family: 'Amiri', serif;
+    color: #333333;
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-align: center;
+    left: 23rem;
+    bottom: 21rem;
+}
+
+.row .col{
+    padding: 0rem;
+}
+/* end card home */
+
+/* card panel */
+
+.container{
+    background-color: #899b8d;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #333333;
+    padding: 0 2rem 1.5rem;
+}
+
+/* end card panel */
+
+/* Portfolio */
+#Portfolio{
+    font-family: 'Amiri', serif;
+    color: #333333;
+    font-size: 4.2rem;
+    font-weight: 400;
+    text-align: center;
+    left: 42rem;
+    bottom: 43rem;
+}
+
+#phrase2{
+    font-family: 'Amiri', serif;
+    color: #333333;
+    font-size: 1.9rem;
+    font-weight: 400;
+    text-align: center;
+    left: 23rem;
+    bottom: 41rem;
+}
+
+#phrase3{
+    font-family: 'Amiri', serif;
+    color: #333333;
+    font-size: 1.9rem;
+    font-weight: 400;
+    text-align: center;
+    left: 21.9rem;
+    bottom: 38.9rem;
+}
+
+.collection{
+    border: 0px;
+}
+
+/* h1 .title4 .display-4{
+    padding: 0px;
+} */
+
+.title4{
+    text-align: center;
+    color: #333333;
+    margin: auto;
+    padding: 2.5rem;
+    padding-bottom: 3.4rem;
+    padding-left:0px;
+    border-bottom: 1px solid #333333;
+}
+
+
+.collection .collection-item{
+    background-color: #899b8d;
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    margin: 0;
+    border-bottom: 1px solid #333333;
+    color: #333333;
+}
+
+i:hover{
+    border-radius: 2.5rem;
+    padding: 1rem;
+    background-color: #333333;;
+    color: #899b8d;
+}
+
+i{
+    color: #333333;
+}
+/* end portfolio */
+
+/* start About section */
+
+#About{
+    font-family: 'Amiri', serif;
+    color: #333333;
+    font-size: 4.2rem;
+    font-weight: 400;
+    text-align: center;
+    left: 42rem;
+    bottom: 47rem;
+}
+
+#phrase4{
+    font-family: 'Amiri', serif;
+    color: #333333;
+    font-size: 1.9rem;
+    font-weight: 400;
+    text-align: center;
+    left: 23rem;
+    bottom: 44rem;
+}
+
+#phrase5{
+    font-family: 'Amiri', serif;
+    color: #333333;
+    font-size: 1.9rem;
+    font-weight: 400;
+    text-align: center;
+    left: 40rem;
+    bottom: 41rem;
+}
+
+/* Carousel */
+
+.carousel .carousel-item {
+    visibility: hidden;
+    width: 400px;
+    height: 500px;
+    padding-top: 10rem;
+    border: 0.0625rem #333333;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 10rem;
+}
+
+img{
+    border-radius: 3.2px;
+}
+
+/* End carousel */
+
+.full1{
+    background-color: #899b8d;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #333333;
+    padding: 3rem 0rem;
+}
+
+.focus1{
+    font-family: 'Amiri', serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* end about */
+
+    /* br */
+
+/* this area reserved for resume 
+
+*/
+
+/* begin blog */
+
+/* .blog{
+    background-image: url(./media/blogCover.png);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 800px;
+    margin-bottom: 0rem;
+} */
+
+/* end blog */
+
+/* begin contact */
+
+#Contact{
+    font-family: 'Amiri', serif;
+    color: #333333;
+    font-size: 4.2rem;
+    font-weight: 400;
+    text-align: center;
+    left: 42rem;
+    bottom: 63rem;
+}
+
+#phrase6{
+    font-family: 'Amiri', serif;
+    color: #333333;
+    font-size: 1.9rem;
+    font-weight: 400;
+    text-align: center;
+    left: 23rem;
+    bottom: 60rem;
+}
+
+#phrase7{
+    font-family: 'Amiri', serif;
+    color: #333333;
+    font-size: 1.9rem;
+    font-weight: 400;
+    text-align: center;
+    left: 23rem;
+    bottom: 57rem;
+}
+
+.contact1{
+    font-family: 'Amiri', serif;
+    color: #333333;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+    Padding: 0px 16px;
+    padding-top: 16px
+}
+
+
+.contactItem{
+    font-size: 20rem;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+/* i:hover{
+    background-color: #000;
+    /* stupid linkedIn radius has to be all different */
+ 
+
+.containerThree{
+    background-color: #333;
+    flex: 1 1 auto;
+
+}
+
+.contactContainer{
+    background-color: #eee;
+}
+
+
+
+/* end contact */
+
+/* begin footer */
+
+.page-footer{
+    color: #e3dac9;
+    background-color: #899b8d;
+    margin-left: .7rem;
+    margin-right: .75rem;
+}
+
+.footerReturn{
+    color: #e3dac9;
+    font-size: 1.2rem;
+}
+
+#footer-copyright{
+    color: #e3dac9;
+    background-color: #899b8d;
+    font-size: .9rem;
+    text-align: right;
+}
