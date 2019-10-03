@@ -23,6 +23,19 @@ li{
     font-weight: 600;
 }
 
+@media (max-width:768px){
+    nav .brand-logo{
+    text-align: center;
+    left: 24rem;
+    }
+}
+
+@media (max-width:425px){
+    nav .brand-logo{
+    text-align: center;
+    left: 12rem;
+    }
+}
  /* end navbar */
 
  /* card home page */
@@ -39,8 +52,23 @@ li{
     bottom: 25rem;
 }
 
+@media (max-width:768px){
+    #home{
+        font-size: 2.5rem;
+        left: 3rem;
+        bottom: 10rem;
+    }
+}
+
+@media (max-width:425px){
+    #home{
+    font-size: 1.8rem;
+    bottom: 3.3rem;
+    }
+}
+
 #phrase{
-    font-family: 'Amiri', serif;
+    font-family: 'Poppins', sans-serif;
     color: #333333;
     font-size: 1.7rem;
     font-weight: 400;
@@ -50,7 +78,7 @@ li{
 }
 
 #phrase1{
-    font-family: 'Amiri', serif;
+    font-family: 'Poppins', sans-serif;
     color: #333333;
     font-size: 1.7rem;
     font-weight: 400;
@@ -62,6 +90,15 @@ li{
 .row .col{
     padding: 0rem;
 }
+
+
+@media (max-width:425px){
+    .focus{
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    }
+}
+
 /* end card home */
 
 /* card panel */
@@ -87,8 +124,24 @@ li{
     bottom: 43rem;
 }
 
+@media (max-width:768px){
+    #Portfolio{
+    font-size: 2.5rem;
+    left: 19rem;
+    bottom: 20rem;
+    }
+}
+
+@media (max-width:425px){
+    #Portfolio{
+    font-size: 2.5rem;
+    left: 10rem;
+    bottom: 9rem;
+    }
+}
+
 #phrase2{
-    font-family: 'Amiri', serif;
+    font-family: 'Poppins', sans-serif;
     color: #333333;
     font-size: 1.9rem;
     font-weight: 400;
@@ -98,7 +151,7 @@ li{
 }
 
 #phrase3{
-    font-family: 'Amiri', serif;
+    font-family: 'Poppins', sans-serif;
     color: #333333;
     font-size: 1.9rem;
     font-weight: 400;
@@ -111,11 +164,7 @@ li{
     border: 0px;
 }
 
-/* h1 .title4 .display-4{
-    padding: 0px;
-} */
-
-.title4{
+.projects{
     text-align: center;
     color: #333333;
     margin: auto;
@@ -159,8 +208,24 @@ i{
     bottom: 47rem;
 }
 
+@media (max-width:768px){
+    #About{
+    font-size: 2.5rem;
+    left: 20rem;
+    bottom: 22rem;
+    }
+}
+
+@media (max-width:425px){
+    #About{
+    font-size: 2.5rem;
+    left: 10rem;
+    bottom: 9.5rem;
+    }
+}
+
 #phrase4{
-    font-family: 'Amiri', serif;
+    font-family: 'Poppins', sans-serif;
     color: #333333;
     font-size: 1.9rem;
     font-weight: 400;
@@ -170,7 +235,7 @@ i{
 }
 
 #phrase5{
-    font-family: 'Amiri', serif;
+    font-family: 'Poppins', sans-serif;
     color: #333333;
     font-size: 1.9rem;
     font-weight: 400;
@@ -208,9 +273,15 @@ img{
 }
 
 .focus1{
-    font-family: 'Amiri', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 3rem;
     text-align: center;
+}
+
+@media (max-width:425px){
+    .focus1{
+    font-size: 1.4rem;
+    }
 }
 
 /* end about */
@@ -245,8 +316,24 @@ img{
     bottom: 63rem;
 }
 
+@media (max-width:768px){
+    #Contact{
+    font-size: 2.5rem;
+    left: 19rem;
+    bottom: 30rem;
+    }
+}
+
+@media (max-width:425px){
+    #Contact{
+    font-size: 2.5rem;
+    left: 9rem;
+    bottom: 15rem;
+    }
+}
+
 #phrase6{
-    font-family: 'Amiri', serif;
+    font-family: 'Poppins', sans-serif;
     color: #333333;
     font-size: 1.9rem;
     font-weight: 400;
@@ -256,7 +343,7 @@ img{
 }
 
 #phrase7{
-    font-family: 'Amiri', serif;
+    font-family: 'Poppins', sans-serif;
     color: #333333;
     font-size: 1.9rem;
     font-weight: 400;
@@ -276,28 +363,17 @@ img{
 }
 
 
-.contactItem{
+.contact-item{
     font-size: 20rem;
     text-align: center;
     padding-bottom: 5rem;
 }
 
-/* i:hover{
-    background-color: #000;
-    /* stupid linkedIn radius has to be all different */
- 
-
-.containerThree{
-    background-color: #333;
-    flex: 1 1 auto;
-
+@media (max-width:768px){
+    .contact-item{
+        font-size: 10rem;
+    }
 }
-
-.contactContainer{
-    background-color: #eee;
-}
-
-
 
 /* end contact */
 
@@ -310,7 +386,7 @@ img{
     margin-right: .75rem;
 }
 
-.footerReturn{
+.footer-return{
     color: #e3dac9;
     font-size: 1.2rem;
 }
@@ -320,4 +396,17 @@ img{
     background-color: #899b8d;
     font-size: .9rem;
     text-align: right;
+}
+
+/* Master for all phrases */
+@media (max-width:768px){
+    .hidden-mobile{
+    display:none;
+    }
+}
+
+@media (max-width:425px){
+    h1{
+    font-size: 2.2rem;
+    }
 }
